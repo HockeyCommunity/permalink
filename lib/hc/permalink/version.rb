@@ -1,4 +1,4 @@
-module Hc
+module HC
   module Permalink
     VERSION = "0.1.0"
   end
