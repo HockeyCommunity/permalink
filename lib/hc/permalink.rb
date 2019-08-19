@@ -13,7 +13,7 @@ module HC
     end
 
     def self.shared_resource_classes
-      @@shared_resource_classes
+      @@shared_resource_classes.collect(&:constantize)
     end
 
     def self.generate_unique(value:, target_class:, target_field: 'permalink', ignore_id: nil, constraint: nil)
