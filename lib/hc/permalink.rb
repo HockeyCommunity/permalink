@@ -2,7 +2,7 @@ require "hc/permalink/version"
 require "active_support/inflector/transliterate"
 require "russian"
 
-module HC
+module Hc
   module Permalink
 
     @@shared_resource_classes = []

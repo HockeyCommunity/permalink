@@ -5,7 +5,7 @@ require "hc/permalink/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "hc-permalink"
-  spec.version       = HC::Permalink::VERSION
+  spec.version       = Hc::Permalink::VERSION
   spec.authors       = ["Jack Hayter"]
   spec.email         = ["jack@hockey-community.com"]
 
